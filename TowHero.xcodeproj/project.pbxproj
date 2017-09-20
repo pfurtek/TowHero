@@ -1,0 +1,1311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D40BB66CE2A387DBF2F595 /* Pods_TowHeroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D6A8030981E454904195A3 /* Pods_TowHeroUITests.framework */; };
+		9A00F1CB1D26E6F1002BAD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00F1CA1D26E6F1002BAD16 /* AppDelegate.swift */; };
+		9A00F1CD1D26E6F1002BAD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00F1CC1D26E6F1002BAD16 /* ViewController.swift */; };
+		9A00F1D01D26E6F1002BAD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A00F1CE1D26E6F1002BAD16 /* Main.storyboard */; };
+		9A00F1D21D26E6F1002BAD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A00F1D11D26E6F1002BAD16 /* Assets.xcassets */; };
+		9A00F1D51D26E6F1002BAD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A00F1D31D26E6F1002BAD16 /* LaunchScreen.storyboard */; };
+		9A00F1E01D26E6F1002BAD16 /* TowHero_UI_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00F1DF1D26E6F1002BAD16 /* TowHero_UI_TestTests.swift */; };
+		9A00F1EB1D26E6F1002BAD16 /* TowHero_UI_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00F1EA1D26E6F1002BAD16 /* TowHero_UI_TestUITests.swift */; };
+		9AA8ED9C1D1DD4A900FD2BF1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8ED9B1D1DD4A900FD2BF1 /* MapViewController.swift */; };
+		9ABEE71E1D1888A100C6637A /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEE71D1D1888A100C6637A /* SwitchViewController.swift */; };
+		9ABEE7201D18962600C6637A /* RotatingCarAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEE71F1D18962600C6637A /* RotatingCarAnnotation.swift */; };
+		9AC0C7D31D21C24500A8250E /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C7D21D21C24500A8250E /* TextFieldViewController.swift */; };
+		9AC0C7D51D21C3D500A8250E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C7D41D21C3D500A8250E /* Model.swift */; };
+		9AC0C7D71D21C9CB00A8250E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C7D61D21C9CB00A8250E /* MyTableViewController.swift */; };
+		A81E6961B5B648E45688F20E /* Pods_TowHeroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E536F53D6735009ABC3D5D0 /* Pods_TowHeroTests.framework */; };
+		B724D7871D185111007C6A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724D7861D185111007C6A4B /* AppDelegate.swift */; };
+		B724D7891D185111007C6A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724D7881D185111007C6A4B /* ViewController.swift */; };
+		B724D78C1D185111007C6A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B724D78A1D185111007C6A4B /* Main.storyboard */; };
+		B724D78E1D185111007C6A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B724D78D1D185111007C6A4B /* Assets.xcassets */; };
+		B724D7911D185111007C6A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B724D78F1D185111007C6A4B /* LaunchScreen.storyboard */; };
+		B724D79C1D185111007C6A4B /* TowHeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724D79B1D185111007C6A4B /* TowHeroTests.swift */; };
+		B724D7A71D185111007C6A4B /* TowHeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724D7A61D185111007C6A4B /* TowHeroUITests.swift */; };
+		C5F94ACC35DAAFE8DAF794DD /* Pods_TowHero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76175D461FAE5F2721AC3F7A /* Pods_TowHero.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A00F1DC1D26E6F1002BAD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A00F1C71D26E6F1002BAD16;
+			remoteInfo = "TowHero UI Test";
+		};
+		9A00F1E71D26E6F1002BAD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A00F1C71D26E6F1002BAD16;
+			remoteInfo = "TowHero UI Test";
+		};
+		9A3B3D9D1D26E649004BAAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3B3D881D26E649004BAAA1;
+			remoteInfo = TowHeroUITest;
+		};
+		9A3B3DA81D26E649004BAAA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3B3D881D26E649004BAAA1;
+			remoteInfo = TowHeroUITest;
+		};
+		B724D7981D185111007C6A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B724D7821D185111007C6A4B;
+			remoteInfo = TowHero;
+		};
+		B724D7A31D185111007C6A4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B724D77B1D185111007C6A4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B724D7821D185111007C6A4B;
+			remoteInfo = TowHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D6A8030981E454904195A3 /* Pods_TowHeroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TowHeroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15338EA90E262FCDFBAE5CCC /* Pods-TowHeroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHeroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TowHeroTests/Pods-TowHeroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E536F53D6735009ABC3D5D0 /* Pods_TowHeroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TowHeroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69209515B55EAFC380309FD0 /* Pods-TowHeroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHeroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TowHeroUITests/Pods-TowHeroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		723D3B62D27E7C384639B4D7 /* Pods-TowHeroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHeroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TowHeroTests/Pods-TowHeroTests.release.xcconfig"; sourceTree = "<group>"; };
+		76175D461FAE5F2721AC3F7A /* Pods_TowHero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TowHero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767ACA4BF1D76B34696BBFC5 /* Pods-TowHeroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHeroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TowHeroUITests/Pods-TowHeroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94DA13F278C9AE3F064AD433 /* Pods-TowHero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TowHero/Pods-TowHero.debug.xcconfig"; sourceTree = "<group>"; };
+		9A00F1C81D26E6F1002BAD16 /* TowHero UI Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TowHero UI Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A00F1CA1D26E6F1002BAD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A00F1CC1D26E6F1002BAD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A00F1CF1D26E6F1002BAD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A00F1D11D26E6F1002BAD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A00F1D41D26E6F1002BAD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A00F1D61D26E6F1002BAD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A00F1DB1D26E6F1002BAD16 /* TowHero UI TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TowHero UI TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A00F1DF1D26E6F1002BAD16 /* TowHero_UI_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowHero_UI_TestTests.swift; sourceTree = "<group>"; };
+		9A00F1E11D26E6F1002BAD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A00F1E61D26E6F1002BAD16 /* TowHero UI TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TowHero UI TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A00F1EA1D26E6F1002BAD16 /* TowHero_UI_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowHero_UI_TestUITests.swift; sourceTree = "<group>"; };
+		9A00F1EC1D26E6F1002BAD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3B3D891D26E649004BAAA1 /* TowHeroUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowHeroUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3B3D9C1D26E649004BAAA1 /* TowHeroUITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowHeroUITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3B3DA71D26E649004BAAA1 /* TowHeroUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowHeroUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA8ED9B1D1DD4A900FD2BF1 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9ABEE71D1D1888A100C6637A /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		9ABEE71F1D18962600C6637A /* RotatingCarAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingCarAnnotation.swift; sourceTree = "<group>"; };
+		9AC0C7D21D21C24500A8250E /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		9AC0C7D41D21C3D500A8250E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9AC0C7D61D21C9CB00A8250E /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		B724D7831D185111007C6A4B /* TowHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B724D7861D185111007C6A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B724D7881D185111007C6A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B724D78B1D185111007C6A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B724D78D1D185111007C6A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B724D7901D185111007C6A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B724D7921D185111007C6A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B724D7971D185111007C6A4B /* TowHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B724D79B1D185111007C6A4B /* TowHeroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowHeroTests.swift; sourceTree = "<group>"; };
+		B724D79D1D185111007C6A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B724D7A21D185111007C6A4B /* TowHeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TowHeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B724D7A61D185111007C6A4B /* TowHeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowHeroUITests.swift; sourceTree = "<group>"; };
+		B724D7A81D185111007C6A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC89EC8D7ABED7F8B6C0E122 /* Pods-TowHero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TowHero.release.xcconfig"; path = "Pods/Target Support Files/Pods-TowHero/Pods-TowHero.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A00F1C51D26E6F1002BAD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1D81D26E6F1002BAD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1E31D26E6F1002BAD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D861D26E649004BAAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D991D26E649004BAAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3DA41D26E649004BAAA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7801D185111007C6A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F94ACC35DAAFE8DAF794DD /* Pods_TowHero.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7941D185111007C6A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A81E6961B5B648E45688F20E /* Pods_TowHeroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D79F1D185111007C6A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D40BB66CE2A387DBF2F595 /* Pods_TowHeroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58E9FF1DF3A8A2B3040EB313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76175D461FAE5F2721AC3F7A /* Pods_TowHero.framework */,
+				2E536F53D6735009ABC3D5D0 /* Pods_TowHeroTests.framework */,
+				01D6A8030981E454904195A3 /* Pods_TowHeroUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90D65FE9F9CBBEC1A232739A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94DA13F278C9AE3F064AD433 /* Pods-TowHero.debug.xcconfig */,
+				DC89EC8D7ABED7F8B6C0E122 /* Pods-TowHero.release.xcconfig */,
+				15338EA90E262FCDFBAE5CCC /* Pods-TowHeroTests.debug.xcconfig */,
+				723D3B62D27E7C384639B4D7 /* Pods-TowHeroTests.release.xcconfig */,
+				767ACA4BF1D76B34696BBFC5 /* Pods-TowHeroUITests.debug.xcconfig */,
+				69209515B55EAFC380309FD0 /* Pods-TowHeroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A00F1C91D26E6F1002BAD16 /* TowHero UI Test */ = {
+			isa = PBXGroup;
+			children = (
+				9A00F1CA1D26E6F1002BAD16 /* AppDelegate.swift */,
+				9A00F1CC1D26E6F1002BAD16 /* ViewController.swift */,
+				9A00F1CE1D26E6F1002BAD16 /* Main.storyboard */,
+				9A00F1D11D26E6F1002BAD16 /* Assets.xcassets */,
+				9A00F1D31D26E6F1002BAD16 /* LaunchScreen.storyboard */,
+				9A00F1D61D26E6F1002BAD16 /* Info.plist */,
+			);
+			path = "TowHero UI Test";
+			sourceTree = "<group>";
+		};
+		9A00F1DE1D26E6F1002BAD16 /* TowHero UI TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A00F1DF1D26E6F1002BAD16 /* TowHero_UI_TestTests.swift */,
+				9A00F1E11D26E6F1002BAD16 /* Info.plist */,
+			);
+			path = "TowHero UI TestTests";
+			sourceTree = "<group>";
+		};
+		9A00F1E91D26E6F1002BAD16 /* TowHero UI TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A00F1EA1D26E6F1002BAD16 /* TowHero_UI_TestUITests.swift */,
+				9A00F1EC1D26E6F1002BAD16 /* Info.plist */,
+			);
+			path = "TowHero UI TestUITests";
+			sourceTree = "<group>";
+		};
+		9AC0C7D11D21B73900A8250E /* AppleMapsVersion */ = {
+			isa = PBXGroup;
+			children = (
+				B724D7881D185111007C6A4B /* ViewController.swift */,
+			);
+			name = AppleMapsVersion;
+			sourceTree = "<group>";
+		};
+		B724D77A1D185111007C6A4B = {
+			isa = PBXGroup;
+			children = (
+				B724D7851D185111007C6A4B /* TowHero */,
+				B724D79A1D185111007C6A4B /* TowHeroTests */,
+				B724D7A51D185111007C6A4B /* TowHeroUITests */,
+				9A00F1C91D26E6F1002BAD16 /* TowHero UI Test */,
+				9A00F1DE1D26E6F1002BAD16 /* TowHero UI TestTests */,
+				9A00F1E91D26E6F1002BAD16 /* TowHero UI TestUITests */,
+				B724D7841D185111007C6A4B /* Products */,
+				90D65FE9F9CBBEC1A232739A /* Pods */,
+				58E9FF1DF3A8A2B3040EB313 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B724D7841D185111007C6A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B724D7831D185111007C6A4B /* TowHero.app */,
+				B724D7971D185111007C6A4B /* TowHeroTests.xctest */,
+				B724D7A21D185111007C6A4B /* TowHeroUITests.xctest */,
+				9A3B3D891D26E649004BAAA1 /* TowHeroUITest.app */,
+				9A3B3D9C1D26E649004BAAA1 /* TowHeroUITestTests.xctest */,
+				9A3B3DA71D26E649004BAAA1 /* TowHeroUITestUITests.xctest */,
+				9A00F1C81D26E6F1002BAD16 /* TowHero UI Test.app */,
+				9A00F1DB1D26E6F1002BAD16 /* TowHero UI TestTests.xctest */,
+				9A00F1E61D26E6F1002BAD16 /* TowHero UI TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B724D7851D185111007C6A4B /* TowHero */ = {
+			isa = PBXGroup;
+			children = (
+				B724D7861D185111007C6A4B /* AppDelegate.swift */,
+				9ABEE71D1D1888A100C6637A /* SwitchViewController.swift */,
+				B724D78A1D185111007C6A4B /* Main.storyboard */,
+				9AA8ED9B1D1DD4A900FD2BF1 /* MapViewController.swift */,
+				B724D78D1D185111007C6A4B /* Assets.xcassets */,
+				B724D78F1D185111007C6A4B /* LaunchScreen.storyboard */,
+				B724D7921D185111007C6A4B /* Info.plist */,
+				9ABEE71F1D18962600C6637A /* RotatingCarAnnotation.swift */,
+				9AC0C7D21D21C24500A8250E /* TextFieldViewController.swift */,
+				9AC0C7D61D21C9CB00A8250E /* MyTableViewController.swift */,
+				9AC0C7D41D21C3D500A8250E /* Model.swift */,
+				9AC0C7D11D21B73900A8250E /* AppleMapsVersion */,
+			);
+			path = TowHero;
+			sourceTree = "<group>";
+		};
+		B724D79A1D185111007C6A4B /* TowHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				B724D79B1D185111007C6A4B /* TowHeroTests.swift */,
+				B724D79D1D185111007C6A4B /* Info.plist */,
+			);
+			path = TowHeroTests;
+			sourceTree = "<group>";
+		};
+		B724D7A51D185111007C6A4B /* TowHeroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B724D7A61D185111007C6A4B /* TowHeroUITests.swift */,
+				B724D7A81D185111007C6A4B /* Info.plist */,
+			);
+			path = TowHeroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A00F1C71D26E6F1002BAD16 /* TowHero UI Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A00F1F31D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI Test" */;
+			buildPhases = (
+				9A00F1C41D26E6F1002BAD16 /* Sources */,
+				9A00F1C51D26E6F1002BAD16 /* Frameworks */,
+				9A00F1C61D26E6F1002BAD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TowHero UI Test";
+			productName = "TowHero UI Test";
+			productReference = 9A00F1C81D26E6F1002BAD16 /* TowHero UI Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A00F1DA1D26E6F1002BAD16 /* TowHero UI TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A00F1F41D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI TestTests" */;
+			buildPhases = (
+				9A00F1D71D26E6F1002BAD16 /* Sources */,
+				9A00F1D81D26E6F1002BAD16 /* Frameworks */,
+				9A00F1D91D26E6F1002BAD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A00F1DD1D26E6F1002BAD16 /* PBXTargetDependency */,
+			);
+			name = "TowHero UI TestTests";
+			productName = "TowHero UI TestTests";
+			productReference = 9A00F1DB1D26E6F1002BAD16 /* TowHero UI TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A00F1E51D26E6F1002BAD16 /* TowHero UI TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A00F1F51D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI TestUITests" */;
+			buildPhases = (
+				9A00F1E21D26E6F1002BAD16 /* Sources */,
+				9A00F1E31D26E6F1002BAD16 /* Frameworks */,
+				9A00F1E41D26E6F1002BAD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A00F1E81D26E6F1002BAD16 /* PBXTargetDependency */,
+			);
+			name = "TowHero UI TestUITests";
+			productName = "TowHero UI TestUITests";
+			productReference = 9A00F1E61D26E6F1002BAD16 /* TowHero UI TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9A3B3D881D26E649004BAAA1 /* TowHeroUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3B3DAE1D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITest" */;
+			buildPhases = (
+				9A3B3D851D26E649004BAAA1 /* Sources */,
+				9A3B3D861D26E649004BAAA1 /* Frameworks */,
+				9A3B3D871D26E649004BAAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowHeroUITest;
+			productName = TowHeroUITest;
+			productReference = 9A3B3D891D26E649004BAAA1 /* TowHeroUITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3B3D9B1D26E649004BAAA1 /* TowHeroUITestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3B3DB11D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITestTests" */;
+			buildPhases = (
+				9A3B3D981D26E649004BAAA1 /* Sources */,
+				9A3B3D991D26E649004BAAA1 /* Frameworks */,
+				9A3B3D9A1D26E649004BAAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3B3D9E1D26E649004BAAA1 /* PBXTargetDependency */,
+			);
+			name = TowHeroUITestTests;
+			productName = TowHeroUITestTests;
+			productReference = 9A3B3D9C1D26E649004BAAA1 /* TowHeroUITestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A3B3DA61D26E649004BAAA1 /* TowHeroUITestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3B3DB41D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITestUITests" */;
+			buildPhases = (
+				9A3B3DA31D26E649004BAAA1 /* Sources */,
+				9A3B3DA41D26E649004BAAA1 /* Frameworks */,
+				9A3B3DA51D26E649004BAAA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3B3DA91D26E649004BAAA1 /* PBXTargetDependency */,
+			);
+			name = TowHeroUITestUITests;
+			productName = TowHeroUITestUITests;
+			productReference = 9A3B3DA71D26E649004BAAA1 /* TowHeroUITestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B724D7821D185111007C6A4B /* TowHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B724D7AB1D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHero" */;
+			buildPhases = (
+				1C047FE8DED12632F6376979 /* [CP] Check Pods Manifest.lock */,
+				B724D77F1D185111007C6A4B /* Sources */,
+				B724D7801D185111007C6A4B /* Frameworks */,
+				B724D7811D185111007C6A4B /* Resources */,
+				E0F46D5C9256418806C397E9 /* [CP] Embed Pods Frameworks */,
+				1C99763C241D95F8CDF9B1F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TowHero;
+			productName = TowHero;
+			productReference = B724D7831D185111007C6A4B /* TowHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B724D7961D185111007C6A4B /* TowHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B724D7AE1D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHeroTests" */;
+			buildPhases = (
+				1F3C06225BCAC901DD8B10CB /* [CP] Check Pods Manifest.lock */,
+				B724D7931D185111007C6A4B /* Sources */,
+				B724D7941D185111007C6A4B /* Frameworks */,
+				B724D7951D185111007C6A4B /* Resources */,
+				6E2A70335F44C55634ADE245 /* [CP] Embed Pods Frameworks */,
+				CDE918C6E6A869450CF226FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B724D7991D185111007C6A4B /* PBXTargetDependency */,
+			);
+			name = TowHeroTests;
+			productName = TowHeroTests;
+			productReference = B724D7971D185111007C6A4B /* TowHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B724D7A11D185111007C6A4B /* TowHeroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B724D7B11D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHeroUITests" */;
+			buildPhases = (
+				6160CDA80352B228AF9FA709 /* [CP] Check Pods Manifest.lock */,
+				B724D79E1D185111007C6A4B /* Sources */,
+				B724D79F1D185111007C6A4B /* Frameworks */,
+				B724D7A01D185111007C6A4B /* Resources */,
+				064821C523799952FD40B07C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B724D7A41D185111007C6A4B /* PBXTargetDependency */,
+			);
+			name = TowHeroUITests;
+			productName = TowHeroUITests;
+			productReference = B724D7A21D185111007C6A4B /* TowHeroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B724D77B1D185111007C6A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "3good LLC";
+				TargetAttributes = {
+					9A00F1C71D26E6F1002BAD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+					};
+					9A00F1DA1D26E6F1002BAD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9A00F1C71D26E6F1002BAD16;
+					};
+					9A00F1E51D26E6F1002BAD16 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9A00F1C71D26E6F1002BAD16;
+					};
+					9A3B3D881D26E649004BAAA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+					};
+					9A3B3D9B1D26E649004BAAA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9A3B3D881D26E649004BAAA1;
+					};
+					9A3B3DA61D26E649004BAAA1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+						TestTargetID = 9A3B3D881D26E649004BAAA1;
+					};
+					B724D7821D185111007C6A4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = C7JP59P2CX;
+					};
+					B724D7961D185111007C6A4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B724D7821D185111007C6A4B;
+					};
+					B724D7A11D185111007C6A4B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B724D7821D185111007C6A4B;
+					};
+				};
+			};
+			buildConfigurationList = B724D77E1D185111007C6A4B /* Build configuration list for PBXProject "TowHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B724D77A1D185111007C6A4B;
+			productRefGroup = B724D7841D185111007C6A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B724D7821D185111007C6A4B /* TowHero */,
+				B724D7961D185111007C6A4B /* TowHeroTests */,
+				B724D7A11D185111007C6A4B /* TowHeroUITests */,
+				9A3B3D881D26E649004BAAA1 /* TowHeroUITest */,
+				9A3B3D9B1D26E649004BAAA1 /* TowHeroUITestTests */,
+				9A3B3DA61D26E649004BAAA1 /* TowHeroUITestUITests */,
+				9A00F1C71D26E6F1002BAD16 /* TowHero UI Test */,
+				9A00F1DA1D26E6F1002BAD16 /* TowHero UI TestTests */,
+				9A00F1E51D26E6F1002BAD16 /* TowHero UI TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A00F1C61D26E6F1002BAD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A00F1D51D26E6F1002BAD16 /* LaunchScreen.storyboard in Resources */,
+				9A00F1D21D26E6F1002BAD16 /* Assets.xcassets in Resources */,
+				9A00F1D01D26E6F1002BAD16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1D91D26E6F1002BAD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1E41D26E6F1002BAD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D871D26E649004BAAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D9A1D26E649004BAAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3DA51D26E649004BAAA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7811D185111007C6A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B724D7911D185111007C6A4B /* LaunchScreen.storyboard in Resources */,
+				B724D78E1D185111007C6A4B /* Assets.xcassets in Resources */,
+				B724D78C1D185111007C6A4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7951D185111007C6A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7A01D185111007C6A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064821C523799952FD40B07C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowHeroUITests/Pods-TowHeroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C047FE8DED12632F6376979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C99763C241D95F8CDF9B1F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowHero/Pods-TowHero-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F3C06225BCAC901DD8B10CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6160CDA80352B228AF9FA709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E2A70335F44C55634ADE245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowHeroTests/Pods-TowHeroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE918C6E6A869450CF226FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowHeroTests/Pods-TowHeroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F46D5C9256418806C397E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TowHero/Pods-TowHero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A00F1C41D26E6F1002BAD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A00F1CD1D26E6F1002BAD16 /* ViewController.swift in Sources */,
+				9A00F1CB1D26E6F1002BAD16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1D71D26E6F1002BAD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A00F1E01D26E6F1002BAD16 /* TowHero_UI_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A00F1E21D26E6F1002BAD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A00F1EB1D26E6F1002BAD16 /* TowHero_UI_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D851D26E649004BAAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3D981D26E649004BAAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3B3DA31D26E649004BAAA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D77F1D185111007C6A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC0C7D51D21C3D500A8250E /* Model.swift in Sources */,
+				9ABEE71E1D1888A100C6637A /* SwitchViewController.swift in Sources */,
+				B724D7891D185111007C6A4B /* ViewController.swift in Sources */,
+				9AC0C7D71D21C9CB00A8250E /* MyTableViewController.swift in Sources */,
+				9AC0C7D31D21C24500A8250E /* TextFieldViewController.swift in Sources */,
+				B724D7871D185111007C6A4B /* AppDelegate.swift in Sources */,
+				9AA8ED9C1D1DD4A900FD2BF1 /* MapViewController.swift in Sources */,
+				9ABEE7201D18962600C6637A /* RotatingCarAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D7931D185111007C6A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B724D79C1D185111007C6A4B /* TowHeroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B724D79E1D185111007C6A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B724D7A71D185111007C6A4B /* TowHeroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A00F1DD1D26E6F1002BAD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A00F1C71D26E6F1002BAD16 /* TowHero UI Test */;
+			targetProxy = 9A00F1DC1D26E6F1002BAD16 /* PBXContainerItemProxy */;
+		};
+		9A00F1E81D26E6F1002BAD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A00F1C71D26E6F1002BAD16 /* TowHero UI Test */;
+			targetProxy = 9A00F1E71D26E6F1002BAD16 /* PBXContainerItemProxy */;
+		};
+		9A3B3D9E1D26E649004BAAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3B3D881D26E649004BAAA1 /* TowHeroUITest */;
+			targetProxy = 9A3B3D9D1D26E649004BAAA1 /* PBXContainerItemProxy */;
+		};
+		9A3B3DA91D26E649004BAAA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3B3D881D26E649004BAAA1 /* TowHeroUITest */;
+			targetProxy = 9A3B3DA81D26E649004BAAA1 /* PBXContainerItemProxy */;
+		};
+		B724D7991D185111007C6A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B724D7821D185111007C6A4B /* TowHero */;
+			targetProxy = B724D7981D185111007C6A4B /* PBXContainerItemProxy */;
+		};
+		B724D7A41D185111007C6A4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B724D7821D185111007C6A4B /* TowHero */;
+			targetProxy = B724D7A31D185111007C6A4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A00F1CE1D26E6F1002BAD16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A00F1CF1D26E6F1002BAD16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A00F1D31D26E6F1002BAD16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A00F1D41D26E6F1002BAD16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B724D78A1D185111007C6A4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B724D78B1D185111007C6A4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B724D78F1D185111007C6A4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B724D7901D185111007C6A4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A00F1ED1D26E6F1002BAD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TowHero UI Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A00F1EE1D26E6F1002BAD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TowHero UI Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A00F1EF1D26E6F1002BAD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TowHero UI TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHero UI Test.app/TowHero UI Test";
+			};
+			name = Debug;
+		};
+		9A00F1F01D26E6F1002BAD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TowHero UI TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHero UI Test.app/TowHero UI Test";
+			};
+			name = Release;
+		};
+		9A00F1F11D26E6F1002BAD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TowHero UI TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TowHero UI Test";
+			};
+			name = Debug;
+		};
+		9A00F1F21D26E6F1002BAD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TowHero UI TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.usc.TowHero-UI-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TowHero UI Test";
+			};
+			name = Release;
+		};
+		9A3B3DAF1D26E649004BAAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowHeroUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3B3DB01D26E649004BAAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TowHeroUITest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3B3DB21D26E649004BAAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowHeroUITestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHeroUITest.app/TowHeroUITest";
+			};
+			name = Debug;
+		};
+		9A3B3DB31D26E649004BAAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowHeroUITestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHeroUITest.app/TowHeroUITest";
+			};
+			name = Release;
+		};
+		9A3B3DB51D26E649004BAAA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TowHeroUITestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowHeroUITest;
+			};
+			name = Debug;
+		};
+		9A3B3DB61D26E649004BAAA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TowHeroUITestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.TowHeroUITestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowHeroUITest;
+			};
+			name = Release;
+		};
+		B724D7A91D185111007C6A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B724D7AA1D185111007C6A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B724D7AC1D185111007C6A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DA13F278C9AE3F064AD433 /* Pods-TowHero.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TowHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B724D7AD1D185111007C6A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC89EC8D7ABED7F8B6C0E122 /* Pods-TowHero.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TowHero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B724D7AF1D185111007C6A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15338EA90E262FCDFBAE5CCC /* Pods-TowHeroTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHero.app/TowHero";
+			};
+			name = Debug;
+		};
+		B724D7B01D185111007C6A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 723D3B62D27E7C384639B4D7 /* Pods-TowHeroTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TowHeroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHeroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TowHero.app/TowHero";
+			};
+			name = Release;
+		};
+		B724D7B21D185111007C6A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767ACA4BF1D76B34696BBFC5 /* Pods-TowHeroUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TowHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowHero;
+			};
+			name = Debug;
+		};
+		B724D7B31D185111007C6A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69209515B55EAFC380309FD0 /* Pods-TowHeroUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = TowHeroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkshop.TowHeroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TowHero;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A00F1F31D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A00F1ED1D26E6F1002BAD16 /* Debug */,
+				9A00F1EE1D26E6F1002BAD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A00F1F41D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A00F1EF1D26E6F1002BAD16 /* Debug */,
+				9A00F1F01D26E6F1002BAD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A00F1F51D26E6F1002BAD16 /* Build configuration list for PBXNativeTarget "TowHero UI TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A00F1F11D26E6F1002BAD16 /* Debug */,
+				9A00F1F21D26E6F1002BAD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A3B3DAE1D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3B3DAF1D26E649004BAAA1 /* Debug */,
+				9A3B3DB01D26E649004BAAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3B3DB11D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3B3DB21D26E649004BAAA1 /* Debug */,
+				9A3B3DB31D26E649004BAAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3B3DB41D26E649004BAAA1 /* Build configuration list for PBXNativeTarget "TowHeroUITestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3B3DB51D26E649004BAAA1 /* Debug */,
+				9A3B3DB61D26E649004BAAA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B724D77E1D185111007C6A4B /* Build configuration list for PBXProject "TowHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B724D7A91D185111007C6A4B /* Debug */,
+				B724D7AA1D185111007C6A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B724D7AB1D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B724D7AC1D185111007C6A4B /* Debug */,
+				B724D7AD1D185111007C6A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B724D7AE1D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B724D7AF1D185111007C6A4B /* Debug */,
+				B724D7B01D185111007C6A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B724D7B11D185111007C6A4B /* Build configuration list for PBXNativeTarget "TowHeroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B724D7B21D185111007C6A4B /* Debug */,
+				B724D7B31D185111007C6A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B724D77B1D185111007C6A4B /* Project object */;
+}
